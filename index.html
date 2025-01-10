@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegistroTec</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+    
+    <form  action="https://formsubmit.co/anvera2019@gmail.com" method="POST">
+        
+        <h1>Bienvenido a soporte tecnico</h1>
+        <h2>Ingrese datos de contacto</h2>
+        <br>
+        <label for="nombre">Nombre</label>
+        <br>
+        <input class="centro" type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre aqui"required>
+        <br>
+        <label for="email">Email</label>
+        <br>
+        <input class="centro1" type="email" id="email" name="email" placeholder="Escribe tu email aqui"
+         required>
+        <br>
+        <label for="contacto">Fono de contacto</label>
+        <br>
+        <input class="centro2" type="text" id="Contacto" name="fono" placeholder="Ingrese numero" maxlength="9" required>
+        <br>
+        <label for="historia">Escriba aqui el problema tecnico</label>
+        <br>
+        <textarea class="centro5" id="opinion" rame="opinion" name= "historia" placeholder="Escriba aqui el problema tecnico" rows="5" cols="25" required></textarea> 
+        <br>
+        <label for="fecha">Fecha de contacto</label>
+        <br>
+        <input class="centro3" type="date" id="fecha" name="fecha" max="2025-12-31" required>
+        <br>
+        <label  for="horario">Horario de contacto</label>
+        <br>
+            <select class="centro4" name="horario" id="horario">
+                <option value="am">8:00 a 10:00</option>
+                <option value="am">10:00 a 12:00</option>
+                <option value="pm">15:00 a 17:00</option>
+                <option value="pm">17:00 a 19:00</option>
+                
+            </select>
+        <br>
+        <br>
+        
+        <input class="submit" type="submit" value="Enviar datos" id= "registrado" >
+        <input class="reset" type="reset" value="Resetar">
+       
+        
+     </form>
+
+     <script src="script.js"></script>     
+   
+</body>
+</html>
