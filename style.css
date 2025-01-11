@@ -32,6 +32,8 @@ textarea { color: rgb(14, 1, 11);
 label{ 
     color: rgb(12, 12, 14);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    font-size: 130%;
   }
 .submit{
     padding: 12px 45px;
